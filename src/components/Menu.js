@@ -8,10 +8,9 @@ export default function Menu(){
 
   // <div className="row">
   return (
-
-      <Nav className="navbar row justify-content-center navbar-expand-lg navbar-dark bg-dark">
-        <div className="col-2 d-none d-sm-block"></div>
-        <div className="col p-0">
+    <Nav className="navbar row justify-content-center navbar-expand-lg navbar-dark bg-dark">
+      <div className="col-2 d-none d-sm-block"></div>
+      <div className="col p-0">
 
         {/*Mobile Hamburger Menu Icon*/}
         <Button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,7 +45,7 @@ export default function Menu(){
                 <Link to="/pitch/comic-excerpt" className="dropdown-item">Comic Excerpt</Link>
                 <Link to="/pitch/music-example" className="dropdown-item">Music Example</Link>
                 <Link to="/pitch/concept-art" className="dropdown-item">Concept Art</Link>
-                <Link to="/artist-details" className="dropdown-item">Details for Artists</Link>
+                <Link to="/pitch/artist-details" className="dropdown-item">Details for Artists</Link>
                 <Link to="/pitch/cover-art-description" className="dropdown-item">Cover Art Description</Link>
                 <Link to="/pitch/mood-board" className="dropdown-item">Mood Board</Link>
               </div>
@@ -56,9 +55,6 @@ export default function Menu(){
         </div>
       </div>
       <div className="col-2"></div>
-      </Nav>
-
-
+    </Nav>
   );
 }
-// </div>
