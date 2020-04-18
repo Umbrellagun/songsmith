@@ -19,16 +19,11 @@ export default class ComicNavigator extends React.Component {
 
   pageNavigation = (new_page)=>{
     const {
-      page_data,
       setCurrentPage,
     } = this.props;
 
     $("#content").fadeOut(1000, function(){
       setCurrentPage(new_page, ()=>{
-
-        // $("#image").load(function() { $("#content").fadeIn(); });
-        // $("#content").fadeIn(2000);
-
         $(window).scrollTop($("#panel").offset().top);
       })
     });
@@ -89,7 +84,7 @@ export default class ComicNavigator extends React.Component {
                       size="2x"
                       style={{...buttonStyle, ...{marginLeft: 2}}}
                       icon={faLongArrowAltRight}
-                      />
+                    />
                   </strong>
                 );
               })}

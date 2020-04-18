@@ -15,7 +15,7 @@ export default function EvelynTaggartConceptArtPage(){
       <img src="https://firebasestorage.googleapis.com/v0/b/songsmith-7042e.appspot.com/o/Concept%20Art%2FEvelyn%20Taggart%2Fevelyn-sydney.png?alt=media&token=5455579a-4c0f-4180-bc1b-a70d994269bb" class="img-fluid" alt=""/>
       <small className="p-4">Evelyn Taggart Intro – by Sydney Stone</small>
 
-      <img src="https://firebasestorage.googleapis.com/v0/b/songsmith-7042e.appspot.com/o/Concept%20Art%2FEvelyn%20Taggart%2Fevelyn-pixel.png?alt=media&token=7be30a96-de5f-4609-8708-ce13f29c3680" class="img-fluid" alt=""/>
+      <img src="https://firebasestorage.googleapis.com/v0/b/songsmith-7042e.appspot.com/o/Concept%20Art%2FEvelyn%20Taggart%2Fevelyn-pixel.png?alt=media&token=7be30a96-de5f-4609-8708-ce13f29c3680" class="rounded mx-auto d-block" alt=""/>
       <small className="p-4">Evelyn Taggart – by Caleb Sundance</small>
 
       <img src="https://firebasestorage.googleapis.com/v0/b/songsmith-7042e.appspot.com/o/Concept%20Art%2FEvelyn%20Taggart%2Fevelyn-markers.jpg?alt=media&token=88d1580b-89ac-4d73-81c1-499c1264720c" class="img-fluid" alt=""/>
